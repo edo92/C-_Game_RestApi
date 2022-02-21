@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eduardjacobs/Desktop/Catalog/Catalog.csproj": {}
+    "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/Catalog.csproj": {}
   },
   "projects": {
-    "/Users/eduardjacobs/Desktop/Catalog/Catalog.csproj": {
+    "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eduardjacobs/Desktop/Catalog/Catalog.csproj",
+        "projectUniqueName": "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "/Users/eduardjacobs/Desktop/Catalog/Catalog.csproj",
+        "projectPath": "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/Catalog.csproj",
         "packagesPath": "/Users/eduardjacobs/.nuget/packages/",
-        "outputPath": "/Users/eduardjacobs/Desktop/Catalog/obj/",
+        "outputPath": "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eduardjacobs/.nuget/NuGet/NuGet.Config"
