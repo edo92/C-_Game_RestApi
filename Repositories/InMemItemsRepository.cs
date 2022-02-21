@@ -23,5 +23,10 @@ namespace Catalog.Repositories
         {
             return items.Where(items => items.Id == id).SingleOrDefault();
         }
+
+        public void CreateItem(Item item)
+        {
+            items.Add(item);
+        }
     }
 }
