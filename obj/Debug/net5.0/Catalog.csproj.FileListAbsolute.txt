@@ -70,3 +70,14 @@
 /Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/runtimes/linux/native/libmongocrypt.so
 /Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/runtimes/osx/native/libmongocrypt.dylib
 /Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/HealthChecks.MongoDb.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.Options.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/Microsoft.Extensions.Primitives.dll
+/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/bin/Debug/net5.0/System.Runtime.CompilerServices.Unsafe.dll

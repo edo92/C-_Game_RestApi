@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "hGTT+5X88sRrT93wVWn6b4JLX8sZA68y9KiJBI4taIqIeR4T8AQvTqf5DxcflNsWFmMr/fy4//NoZX9nhZZQYw==",
+  "dgSpecHash": "8YKfcx6stBvr0RVFRxSa/zelAeDHUKp7gyl9DpVSUQKoJXBkl7afE/XB9sL1OKTcARMpZMqN5xBHVK6bPMRGjA==",
   "success": true,
   "projectFilePath": "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/Catalog.csproj",
   "expectedPackageFiles": [
+    "/Users/eduardjacobs/.nuget/packages/aspnetcore.healthchecks.mongodb/6.0.1/aspnetcore.healthchecks.mongodb.6.0.1.nupkg.sha512",
     "/Users/eduardjacobs/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
     "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/6.0.0/microsoft.extensions.diagnostics.healthchecks.6.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/6.0.0/microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.fileproviders.abstractions/6.0.0/microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.hosting.abstractions/6.0.0/microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/eduardjacobs/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/eduardjacobs/.nuget/packages/mongodb.bson/2.14.1/mongodb.bson.2.14.1.nupkg.sha512",
     "/Users/eduardjacobs/.nuget/packages/mongodb.driver/2.14.1/mongodb.driver.2.14.1.nupkg.sha512",
@@ -17,7 +27,8 @@
     "/Users/eduardjacobs/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "/Users/eduardjacobs/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "/Users/eduardjacobs/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
-    "/Users/eduardjacobs/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "/Users/eduardjacobs/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/eduardjacobs/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
