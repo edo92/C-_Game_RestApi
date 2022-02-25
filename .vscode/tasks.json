@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/Catalog.csproj",
+        "${workspaceFolder}/build.proj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -23,7 +23,7 @@
       "type": "process",
       "args": [
         "publish",
-        "${workspaceFolder}/Catalog.csproj",
+        "${workspaceFolder}/Catalog.Api//Catalog.Api.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -37,64 +37,56 @@
         "watch",
         "run",
         "--project",
-        "${workspaceFolder}/Catalog.csproj"
+        "${workspaceFolder}/Catalog.Api//Catalog.Api.csproj"
       ],
       "problemMatcher": "$msCompile"
     },
     {
       "type": "docker-build",
       "label": "docker-build: debug",
-      "dependsOn": [
-        "build"
-      ],
+      "dependsOn": ["build"],
       "dockerBuild": {
         "tag": "csharpgamerestapi:dev",
         "target": "base",
-        "dockerfile": "${workspaceFolder}/Dockerfile",
-        "context": "${workspaceFolder}",
+        "dockerfile": "${workspaceFolder}/Catalog.Api//Dockerfile",
+        "context": "${workspaceFolder}/Catalog.Api/",
         "pull": true
       },
       "netCore": {
-        "appProject": "${workspaceFolder}/Catalog.csproj"
+        "appProject": "${workspaceFolder}/Catalog.Api//Catalog.Api.csproj"
       }
     },
     {
       "type": "docker-build",
       "label": "docker-build: release",
-      "dependsOn": [
-        "build"
-      ],
+      "dependsOn": ["build"],
       "dockerBuild": {
         "tag": "csharpgamerestapi:latest",
-        "dockerfile": "${workspaceFolder}/Dockerfile",
-        "context": "${workspaceFolder}",
+        "dockerfile": "${workspaceFolder}/Catalog.Api//Dockerfile",
+        "context": "${workspaceFolder}/Catalog.Api/",
         "pull": true
       },
       "netCore": {
-        "appProject": "${workspaceFolder}/Catalog.csproj"
+        "appProject": "${workspaceFolder}/Catalog.Api//Catalog.Api.csproj"
       }
     },
     {
       "type": "docker-run",
       "label": "docker-run: debug",
-      "dependsOn": [
-        "docker-build: debug"
-      ],
+      "dependsOn": ["docker-build: debug"],
       "dockerRun": {},
       "netCore": {
-        "appProject": "${workspaceFolder}/Catalog.csproj",
+        "appProject": "${workspaceFolder}/Catalog.Api//Catalog.Api.csproj",
         "enableDebugging": true
       }
     },
     {
       "type": "docker-run",
       "label": "docker-run: release",
-      "dependsOn": [
-        "docker-build: release"
-      ],
+      "dependsOn": ["docker-build: release"],
       "dockerRun": {},
       "netCore": {
-        "appProject": "${workspaceFolder}/Catalog.csproj"
+        "appProject": "${workspaceFolder}/Catalog.Api//Catalog.Api.csproj"
       }
     }
   ]

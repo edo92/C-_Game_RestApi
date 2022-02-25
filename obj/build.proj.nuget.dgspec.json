@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/build.proj": {}
+  },
+  "projects": {
+    "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/build.proj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/build.proj",
+        "projectName": "build",
+        "projectPath": "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/build.proj",
+        "packagesPath": "/Users/eduardjacobs/.nuget/packages/",
+        "outputPath": "/Users/eduardjacobs/Desktop/CSharp_Game_RestApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardjacobs/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
